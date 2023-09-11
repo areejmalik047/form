@@ -1,0 +1,46 @@
+form {
+  background-color: #eeeee4;
+  width: 500px;
+  color: brown;
+  height: auto;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 10% #9f9f96;
+}
+body {
+  font-family: Calibri, sans-serif;
+  background-color: whitesmoke;
+}
+label {
+  font-size: 20px;
+  color: brown;
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid;
+  color: brown;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+input[type="submit"] {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid;
+  font-size: 20px;
+  text-align: center;
+  background-color: brown;
+  border-radius: 10px;
+  margin-left: 200px;
+}
+#showdata {
+  background-color: #eeeee4;
+  border: solid 2px brown;
+  color: brown;
+}
