@@ -1,4 +1,5 @@
 //EventListener function
+const dataarry = [];
 document.getElementById("form").addEventListener("submit", (a) => {
   a.preventDefault();
   let Name = document.getElementById("name").value;
@@ -18,8 +19,9 @@ document.getElementById("form").addEventListener("submit", (a) => {
       Address,
       PhoneNo,
     };
+    dataarry.push(data);
     // to convert string into json
-    let datjson = JSON.stringify(data, null, 2);
+    let datjson = JSON.stringify(dataarry, null, 2);
     document.getElementById("showdata").textContent = datjson;
   }
 });
